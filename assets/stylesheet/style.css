@@ -306,6 +306,15 @@ section {
 	 text-decoration: none;
 }
 
+.fa fa-download {
+	 border: 0;
+	 background: #465059;
+	 padding: 6px 15px;
+	 font-size: 14px;
+	 color: #B4B9BD;
+	 text-decoration: none;
+}
+
 .btn-form {
 	 border: 0;
 	 background: #465059;
