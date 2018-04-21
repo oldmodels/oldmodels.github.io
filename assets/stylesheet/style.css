@@ -1,0 +1,395 @@
+/*
+  ========================================
+  Headers
+  ========================================
+*/
+h1 {
+	 text-align: center;
+	 
+}
+
+h3 {
+	 color: yellow;
+}
+
+.historyH2 {
+	 color: yellow;
+
+}
+
+.logo a {
+	 color: white;
+	 text-decoration: none;
+}
+
+.logo a:hover {
+	 color: yellow;
+}
+
+.rogueClassColor {
+	 color: #FFF569;
+}
+
+.warriorClassColor {
+	 color: #C79C6E;
+}
+
+.warlockClassColor  {
+	 color: #9482C9;
+}
+
+
+.mageHeader a {
+	 color: #69CCF0;
+	 text-decoration: none;
+}
+
+.mageHeader a:hover {
+	 color: white;
+}
+
+.paladinHeader a {
+	 color: #F58CBA;
+	 text-decoration: none;
+}
+
+.paladinHeader a:hover {
+	 color: white;
+}
+
+.druidHeader a {
+	 color: #FF7D0A;
+	 text-decoration: none;
+}
+
+.druidHeader a:hover {
+	 color: white;
+}
+
+
+.logo {
+	 
+}
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.navHeader {
+	
+	 border: 2px;
+	 border-style: dashed;
+	 border-color: yellow;	
+}
+
+.navHeader ul li {
+	 list-style-type: none;
+	 display: inline-block;
+	 border: 2px;
+	 border-style: dashed;
+	 border-color: white;
+}
+
+.navHeader ul li a {
+	 color: #B4B9BD;
+	 text-decoration: none;
+	 padding: 0px 20px;
+}
+
+.navHeader ul li a:hover {
+	 color: #FFFBFF;
+}
+
+.navBorder-bottom {
+	 border-bottom: 2px solid #69CCF0;
+}
+
+.navAside ul li {
+	 list-style-type: circle;
+	 text-align: left;
+}
+
+.navAside ul li a {
+	 color: white;
+	 text-decoration: none;
+}
+
+.navAside ul li a:hover {
+	 color: yellow;
+}
+
+.navAside {
+}
+
+.navFooter ul li {
+	 list-style-type: none;
+	 display: inline-block;
+	 font-size: 100%;
+	 margin-top: 0;
+}
+
+.navFooter ul li a {
+	 color: #AFB4B8;
+	 text-decoration: none;
+}
+.navFooter ul li a:hover {
+	 color: white;	
+}
+/*
+  ========================================
+  Section
+  ========================================
+*/
+
+
+/*
+  ========================================
+  Article
+  ========================================
+*/
+
+.articlePicture {
+	 height: auto;
+	 width: 65%
+}
+
+.character-image {
+	 height: auto;
+	 width: 60%;
+}
+
+.ingress {
+	 font-style: none;
+}
+
+article {
+	 border-top-color: #808080;
+	 border-top-style: solid;
+	 border-top-width: 1px;
+}
+
+.byline {
+	 color: #575C60; 
+	 font-size: 80%
+}
+/*
+  ========================================
+  Aside
+  ========================================
+*/
+
+aside {
+	 display: inline-block;
+	 position: fixed;
+	 width: 15%;
+}
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+footer p {
+
+}
+
+.right-footer {
+	 /*display: inline-block;*/
+	 border: 2px;
+	 border-style: dashed;
+	 border-color: #191E22;
+	 
+	 color: #575C60; 
+	 font-size: 80%;
+}
+
+.navFooter {
+	 /*display: inline-block;*/
+	 border:2px;
+	 border-style: dashed;
+	 border-color: #191E22;
+}
+
+/*
+  ========================================
+  Custom Styles
+  ========================================
+*/
+
+.contactEmail:hover{
+	 color: yellow; 
+}
+
+
+/*
+  ========================================
+  Backgrounds
+  ========================================
+*/
+
+body {
+	 background: #191E22;
+	 color: white;
+	 width: 100%;
+	 overflow-x: hidden;
+	 
+	 text-align: center; 
+	 font-family: sans serif;
+	 font-weight: normal;
+}
+
+h1 {
+	 
+}
+
+header {
+	 background: #21262A;
+	 padding-left: 100%;
+	 margin-left: -100%;
+	 padding-top: 100%;
+	 margin-top: -100%;
+}
+
+.navHeader {
+	 background: #465059;
+	 padding-left: 100%;
+	 margin-left: -100%;
+	 padding-right: 100%;
+	 margin-right: -94%;
+}
+
+section {
+	 /*padding-left: 100%;
+	 margin-left: -100%;*/
+	 width: 50%;
+	 display: inline-block;
+	 text-align: left;
+}
+
+.section-container {
+	 background: #111518;
+	 padding-left: 100%;
+	 margin-left: -100%;	 
+}
+
+.footerBottom {
+	 background: #191E22;
+	 padding-left: 100%;
+	 margin-left: -100%;
+	 /*padding-bottom: 20%;*/
+	 /*margin-bottom: 100%;*/
+}
+
+/*
+  ========================================
+  Video
+  ========================================
+*/
+
+.history-video {
+	 
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn-default {
+	 border: 0;
+	 background: #465059;
+	 padding: 6px 15px;
+	 font-size: 14px;
+	 color: #B4B9BD;
+	 text-decoration: none;
+}
+
+.btn-form {
+	 border: 0;
+	 background: #465059;
+	 padding: 7px 17px;
+	 font-size: 17px;
+	 color: #B4B9BD;
+}
+
+.btn-form:hover {
+	 color: black;
+}
+
+.btn-default:hover {
+	 color: black;
+}
+
+.register-group label {
+	 color: #638880;
+	 cursor: pointer;
+	 font-weight: 400;
+}
+
+/*
+  ========================================
+  Table
+  ========================================
+*/
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
+
+
+/*
+  ========================================
+  Borders for editing
+  ========================================
+*/
+
+header {
+	 border: 0px;
+	 border-style: dashed;
+	 border-color: #111518;
+}
+
+section {
+	 border: 2px;
+	 border-style: dashed;
+	 border-color: #111518;
+}
+.navHeader {
+	 border: 2px;
+	 border-style: dashed;
+	 border-color: #465059;
+}
+
+aside {
+	 border: 2px;
+	 border-style: dashed;
+	 border-color: #111518;
+}
+
+.section-container {
+	 border: 3px;
+	 border-style: dashed;
+	 border-color: #111518;
+}
+
+
+/*.footerBottom {
+	 border: 2px;
+	 border-style: dashed;
+	 border-color: white;	
+}*/
+
+/*.navFooter ul {
+	 border:1px;
+	 border-style: dashed;
+	 border-color: white;
+	
+}*/
+
